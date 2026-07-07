@@ -12,8 +12,9 @@ body{
     color: #2d2d2d;
 }
 
-html{
+html, body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 p{
@@ -144,6 +145,7 @@ section{
     overflow: hidden;
     background: #fff;
     box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+    aspect-ratio: 1 / 1;
 }
 
 #profile .sectionpic {
@@ -301,7 +303,7 @@ section{
 
 .textcont{
     flex: 1 1 480px;
-    min-width: 320px;
+    min-width: 250px;
 }
 
 .expsubtitle{
