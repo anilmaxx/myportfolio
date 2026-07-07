@@ -101,7 +101,7 @@ nav{
 }
 
 .menulinks.open{
-    max-height: 240px;
+    max-height: 350px;
 }
 
 .menulinks li{
@@ -484,8 +484,8 @@ footer p{
     }
 
     .menulinks{
-        width: 100%;
-        right: 0;
+        width: 220px;
+        right: -20px;
     }
 
     .btncontainer{
