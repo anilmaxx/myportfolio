@@ -1,183 +1,47 @@
+@media screen and (max-width: 1200px){
+    nav, #handburgernav{
+        padding: 1rem 1.8rem;
+    }
 
-@media screen and (max-width:1200px){
-#desktopnav{
-    display:none;
-}
-#handburgernav{
-    display: flex;
-}
-#experience, .expdetailscont{
-margin-top: 2rem;
-}
-#profile, .section-container{
-display: block;
-}
-.arrow{
-    display: none;
-}
-section, .section-container{
-    height: fit-content;
-}
-section{
-    margin: 0 5%;
-}
-.sectionpic{
-    width:275px;
-    height:275px;
-    margin:0 auto 2rem;
-}
-.aboutcont{
-    margin-top: 0;
-}
-}
-@media screen and (max-width:1400px){
-#profile{
-    height: 83vh;
-    margin-bottom: 6rem;
-}
-.aboutcont{
-    flex-wrap: wrap;
-}
-}
-@media screen and (max-width:600px){
-#contacts, footer{
-    height: 40vh;
-}
-#profile{
-height: 83vh;
-margin-bottom: 0;
-}
-article{
-    font-size: 1rem;
-}
-footer nav{
-    height:fit-content;
-    margin-bottom: 2rem;
-}
-.aboutcointainers, .contactinfouppercont, .btncont{
-flex-wrap: wrap;
-}
-.contactinfocont{
-margin: 0;
-}
-.contactinfocont p, .navlinks li a{
-font-size: 1rem;
-}
-.expsubtitle{
-font-size: 1.25rem;
-}
-.logo{
-    font-size: 1.5rem;
-}
-.navlinks{
-    flex-direction: column;
-    gap:0.5rem;
-    text-align: center;
-}
-.sectionpic{
-    width: auto;
-    height: 46vw;
-    justify-content: center;
-}
-.sectiontextp2{
-    font-size: 1.25rem;
-}
-.title{
-    font-size: 2rem;
-}
-.textcont{
-    text-align: justify;
-}
+    section{
+        margin: 0;
+    }
 }
 
-@media screen and (max-width:1200px){
-#desktopnav{
-    display:none;
-}
-#handburgernav{
-    display: flex;
-}
-#experience, .expdetailscont{
-margin-top: 2rem;
-}
-#profile, .section-container{
-display: block;
-}
-.arrow{
-    display: none;
-}
-section, .section-container{
-    height: fit-content;
-}
-section{
-    margin: 0 5%;
-}
-.sectionpic{
-    width:275px;
-    height:275px;
-    margin:0 auto 2rem;
-}
-.aboutcont{
-    margin-top: 0;
-}
-}
-@media screen and (max-width:1400px){
-#profile{
-    height: 83vh;
-    margin-bottom: 6rem;
-}
-.aboutcont{
-    flex-wrap: wrap;
-}
-}
-@media screen and (max-width:600px){
-#contacts, footer{
-    height: 40vh;
-}
-#profile{
-height: 83vh;
-margin-bottom: 0;
-}
-article{
-    font-size: 1rem;
-}
-footer nav{
-    height:fit-content;
-    margin-bottom: 2rem;
-}
-.aboutcointainers, .contactinfouppercont, .btncont{
-flex-wrap: wrap;
-}
-.contactinfocont{
-margin: 0;
-}
-.contactinfocont p, .navlinks li a{
-font-size: 1rem;
-}
-.expsubtitle{
-font-size: 1.25rem;
-}
-.logo{
-    font-size: 1.5rem;
-}
-.navlinks{
-    flex-direction: column;
-    gap:0.5rem;
-    text-align: center;
-}
-.sectionpic{
-    width: auto;
-    height: 46vw;
-    justify-content: center;
-}
-.sectiontextp2{
-    font-size: 1.25rem;
-}
-.title{
-    font-size: 2rem;
-}
-.textcont{
-    text-align: justify;
+@media screen and (max-width: 760px){
+    .sectionpic{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .navlinks{
+        gap: 1rem;
+        font-size: 0.95rem;
+    }
+
+    .articlecont article{
+        min-width: 180px;
+    }
 }
 
+@media screen and (max-width: 520px){
+    .hamburgericon{
+        width: 28px;
+        height: 20px;
+    }
+
+    .title{
+        font-size: 1.75rem;
+    }
+
+    .sectiontextp2{
+        font-size: 1.25rem;
+    }
+
+    .detailscont,
+    .skillcard,
+    .project-card,
+    .contactcard{
+        padding: 1.2rem;
+    }
 }

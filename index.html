@@ -1,235 +1,191 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="mediaqueries.css"/>
-    <title>My Portfolio</title>
+    <title>Anil Kumar Killi | Full-Stack Developer</title>
 </head>
 <body>
     <nav id="desktopnav">
-        <div class="logo">Anil M@xy</div>
+        <div class="logo">Anil Kumar Killi</div>
         <div>
             <ul class="navlinks">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#project">Project</a></li>
+                <li><a href="#experience">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#contacts">Contact</a></li>
             </ul>
         </div>
     </nav>
     <nav id="handburgernav">
-        <div class="logo">Anil Maxy</div>
+        <div class="logo">Anil Kumar Killi</div>
         <div class="hamburgermenu">
             <div class="hamburgericon" onclick="toggleMenu()">
                 <span></span>
                 <span></span>
                 <span></span>
-                
             </div>
             <div class="menulinks">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
                 <li><a href="#contacts" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
     <section id="profile">
         <div class="sectionpic">
-            <img src="images/IMG_2656_00-photoaidcom-cropped.jpeg" alt="picofme">
+            <img src="images/IMG_2656_00-photoaidcom-cropped.jpeg" alt="Portrait of Anil Kumar Killi">
         </div>
         <div class="sectiontext">
-            <p class="sectiontextp1">Hello I'm</p> 
+            <p class="sectiontextp1">Hello, I'm</p>
             <h1 class="title">Anil Kumar Killi</h1>
-            <p class="sectiontextp2">Frontend Developer</p>
+            <p class="sectiontextp2">MCA Student | Full-Stack Developer </p>
+            <p class="sectiontextp3">Chodavaram, Andhra Pradesh · +91-9515540031</p>
             <div class="btncontainer">
-                <button class="btn btncolor2" onclick="window.open('docs/anilresumeats.pdf')">Download CV</button>
+                <button class="btn btncolor2" onclick="window.open('docs/Killi_Anil_resume.pdf')">Download CV</button>
                 <button class="btn btncolor1" onclick="location.href='#contacts'">Contact Info</button>
             </div>
             <div id="socialcontainer">
-                <img src="images/linkedin.png" alt="" class="icon" onclick="location.href='https://www.linkedin.com'">
-                <img src="images/github.png" alt="" class="icon" onclick="location.href='https://github.com'">
+                <img src="images/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://linkedin.com/in/anilkumar-killi-478148266'">
+                <img src="images/github.png" alt="GitHub" class="icon" onclick="location.href='https://github.com'">
             </div>
         </div>
-        <img src="images/arrow.png" alt="" class="icon arrow" onclick="location.href='#about'">
+        
     </section>
     <section id="about">
         <p class="sectiontextp1">Get to Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="sectionpic">
-                <img src="images/IMG-20220714-WA0018.jpg" alt="pp" class="aboutpic">
+                <img src="images/IMG-20220714-WA0018.jpg" alt="Profile portrait" class="aboutpic">
             </div>
-            <div class="aoutdetauls">
-                <div class="aboutcointainers">
+            <div class="aboutdetails">
+                <div class="aboutcontainers">
                     <div class="detailscont">
-                        <img src="images/experience.png" alt="" class="icon">
-                        <h3>Experience</h3>
-                        <p>1+ year<br>Frontend Development</p>
-                        
+                        <img src="images/experience.png" alt="Experience icon" class="icon">
+                        <h3>Full-Stack Development</h3>
+                        <p>React.js · Node.js · Express.js · MongoDB · REST APIs</p>
                     </div>
-                     <div class="detailscont">
-                        <img src="images/education.png" alt="" class="icon">
+                    <div class="detailscont">
+                        <img src="images/education.png" alt="Education icon" class="icon">
                         <h3>Education</h3>
-                        <p>B.sc. Computer Science<br>Master of Computer Applications (MCA) pursuing</p>
-                        
+                        <p>MCA, JNTU-GV Vizianagaram · 2024–2026<br>Final Year · GPA 78%</p>
                     </div>
                 </div>
                 <div class="textcont">
-                    <p>Passionate about coding, constantly exploring new technologies and solving problems through innovative solutions. Dedicated to studying and expanding knowledge every day. Loves traveling to new places, gaining inspiration from diverse cultures and experiences. Strives to balance personal growth, learning, and adventure in both professional and everyday life.
-                    </p>
+                    <p>Final-year MCA student with hands-on experience in full-stack development using React.js, Node.js, Express.js, and MongoDB. Skilled in REST API design and building CRUD-based applications. IBM SkillsBuild-certified in AI Fundamentals, participated in the GenAI Hackathon, and experienced in integrating LLM/AI APIs and deploying applications to the cloud.</p>
                 </div>
             </div>
         </div>
-        <img src="images/arrow.png" alt="" class="icon arrow" onclick="location.href='#experience'">
+    
     </section>
     <section id="experience">
         <p class="sectiontextp1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Technical Skills</h1>
         <div class="expdetailscont">
-            <div class="aboutcointainers">
-                <div class="detailscont">
-                    <h2 class="expsubtitle">Frontend Development</h2>
-                    <div class="articlecont">
-                        <article>
-                            <img src="images/check-mark.png" alt="" class="icon">
-                            <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                         <article>
-                            <img src="images/check-mark.png" alt="" class="icon">
-                            <div>
-                                <h3>CSS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                         <article>
-                            <img src="images/check-mark.png" alt="" class="icon">
-                            <div>
-                                <h3>JAVASCRIPT</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        
-                    </div>
+            <div class="skillcard">
+                <h2 class="expsubtitle">Frontend</h2>
+                <div class="articlecont">
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>HTML5</h3><p>Advanced</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>CSS3</h3><p>Advanced</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>JavaScript</h3><p>Intermediate</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>React.js</h3><p>Intermediate</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>React Native</h3><p>Intermediate</p></div></article>
                 </div>
-                <div class="detailscont">
-                    <h2 class="expsubtitle">Backend Development</h2>
-                    <div class="articlecont">
-                         <article>
-                            <img src="images/check-mark.png" alt="" class="icon">
-                            <div>
-                                <h3>JAVA</h3>
-                                <p>intermediate</p>
-                            </div>
-                        </article>
-                         <article>
-                            <img src="images/check-mark.png" alt="" class="icon">
-                            <div>
-                                <h3>PYTHON</h3>
-                                <p>intermediate</p>
-                            </div>
-                        </article>
-                         <article>
-                            <img src="images/check-mark.png" alt="" class="icon">
-                            <div>
-                                <h3>DBMS</h3>
-                                <p>intermediate</p>
-                            </div>
-                        </article>
-                    </div>
+            </div>
+            <div class="skillcard">
+                <h2 class="expsubtitle">Backend</h2>
+                <div class="articlecont">
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>Node.js</h3><p>Intermediate</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>Express.js</h3><p>Intermediate</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>REST APIs</h3><p>Intermediate</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>Python</h3><p>Intermediate</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>Java</h3><p>Intermediate</p></div></article>
+                </div>
+            </div>
+            <div class="skillcard">
+                <h2 class="expsubtitle">Database & Cloud</h2>
+                <div class="articlecont">
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>MongoDB</h3><p>Intermediate</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>MySQL</h3><p>Intermediate</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>AWS</h3><p>S3 · EC2 · Lambda</p></div></article>
+                    <article><img src="images/check-mark.png" alt="" class="icon"><div><h3>Git & GitHub</h3><p>Version Control</p></div></article>
                 </div>
             </div>
         </div>
-        <img src="images/arrow.png" alt="" class="icon arrow" onclick="location.href='#project'">
-    </section>
+        
     <section id="project">
         <p class="sectiontextp1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
-        <div class="expdetailscont">
-            <div class="aboutcointainers">
-            <div class="detailscont colorcont">
-                <div class="articlecont">
-                    <img src="images/Screenshot 2025-06-29 214123.png" alt="" class="projectimg">
-                </div>
-                <h2 class="expsubtitle projecttitle">Project One</h2>
-                <p class="prodes">A simple e-commerce website built with HTML, CSS.</p>
+        <div class="projectgrid">
+            <div class="project-card">
+                <img src="images/Screenshot 2026-04-07 102439.png" alt="Note-Taking App" class="projectimg">
+                <h2 class="projecttitle">Note-Taking App</h2>
+                <p class="prodes">Built a MERN note-taking application with CRUD operations, responsive UI, and RESTful backend. Deployed live on Netlify.</p>
                 <div class="btncontainer">
-                    <button class="btn btncolor2" onclick="location.href='https://github.com/anilmaxx/amazone_clone.git'"> GitHub</button>
-                    <button class="btn btncolor2" onclick="location.href='#'"> Live Demo</button>
+                    <button class="btn btncolor2" onclick="location.href='https://github.com/anilmaxx/Notesofmine'">GitHub</button>
+                    <button class="btn btncolor2" onclick="location.href='https://notesofmine1.onrender.com'">Live Demo</button>
                 </div>
-                
             </div>
-            <div class="detailscont colorcont">
-                <div class="articlecont">
-                    <img src="images/Screenshot 2025-06-29 214314.png" alt="" class="projectimg">
-                </div>
-                <h2 class="expsubtitle projecttitle">Project two</h2>
-                <p class="prodes">A simple portfolio website built with HTML, CSS</p>
+            <div class="project-card">
+                <img src="images/saas_backend_app.png" alt="SaaS Backend" class="projectimg">
+                <h2 class="projecttitle">Subscription SaaS Backend</h2>
+                <p class="prodes">Engineered a Node.js/Express backend with JWT authentication, bcrypt hashing, and subscription plan lifecycle management.</p>
                 <div class="btncontainer">
-                    <button class="btn btncolor2" onclick="location.href='https://github.com/anilmaxx/portfolio.git'"> GitHub</button>
-                    <button class="btn btncolor2" onclick="location.href='https://portfolio-seven-tau-68.vercel.app/'"> Live Demo</button>
+                    <button class="btn btncolor2" onclick="location.href='https://github.com/anilmaxx/subscription-based-Saas-backend.git'">GitHub</button>
                 </div>
-                
-            </div>
-            <div class="detailscont colorcont">
-                <div class="articlecont">
-                    <img src="images/Screenshot 2026-04-07 102439.png" alt="" class="projectimg">
-                </div>
-                <h2 class="expsubtitle projecttitle">Project Three</h2>
-                <p class="prodes">A simple note-taking app built with MERN stack.</p>
-                <div class="btncontainer">
-                    <button class="btn btncolor2" onclick="location.href='https://github.com/anilmaxx/Notesofmine'"> GitHub</button>
-                    <button class="btn btncolor2" onclick="location.href='https://notesofmine1.onrender.com'"> Live Demo</button>
-                </div>
-                
-            </div>
-            <div class="detailscont colorcont">
-                <div class="articlecont">
-                    <img src="images/Screenshot 2026-05-21 185837.png" alt="" class="projectimg">
-                </div>
-                <h2 class="expsubtitle projecttitle">Project four</h2>
-                <p class="prodes">An AI generated portfolio website.</p>
-                <div class="btncontainer">
-                    <button class="btn btncolor2" onclick="location.href='#'"> GitHub</button>
-                    <button class="btn btncolor2" onclick="location.href='https://anilportfolio3d.netlify.app/'"> Live Demo</button>
-                </div>
-                
-            </div>
             </div>
         </div>
-        <img src="images/arrow.png" alt="" class="icon arrow" onclick="location.href='#contacts'">
+        
+    </section>
+    <section id="certifications">
+        <p class="sectiontextp1">Certifications & Achievements</p>
+        <h1 class="title">Credentials</h1>
+        <div class="certgrid">
+            <div class="detailscont">
+                <h3>AI Fundamentals</h3>
+                <p>IBM SkillsBuild · Nov 2025</p>
+                <p>Completed coursework in machine learning, neural networks, NLP, and AI ethics.</p>
+            </div>
+            <div class="detailscont">
+                <h3>GenAI Hackathon</h3>
+                <p>JNTU-GV & GenAIVersity · Dec 2025</p>
+                <p>Participated in a two-day generative AI event focused on competitive team-based solutions.</p>
+            </div>
+            <div class="detailscont">
+                <h3>Data Analytics Simulation</h3>
+                <p>Deloitte Australia / Forage</p>
+                <p>Completed a virtual job simulation on data interpretation, forensic analysis, and business problem-solving.</p>
+            </div>
+        </div>
+        
     </section>
     <section id="contacts">
         <p class="sectiontextp1">Get In Touch</p>
-        <h1 class="title">Contacts</h1>
-        <div class="contactinfouppercont">
-            <div class="contactinfocont">
-                <img src="images/email.png" alt="" class="icon Contacticon emailicon">
+        <h1 class="title">Contact</h1>
+        <div class="contactgrid">
+            <div class="contactcard">
+                <img src="images/email.png" alt="Email" class="icon Contacticon emailicon">
                 <p><a href="mailto:anilkumarkilli29@gmail.com">anilkumarkilli29@gmail.com</a></p>
             </div>
-            <div class="contactinfocont">
-                <img src="images/linkedin.png" alt="" class="icon Contacticon">
-                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            <div class="contactcard">
+                <img src="images/R.png" alt="Phone" class="icon Contacticon emailicon">
+                <p><a href="tel:+919515540031">+91-9515540031</a></p>
             </div>
+            <div class="contactcard">
+                <img src="images/linkedin.png" alt="LinkedIn" class="icon Contacticon">
+                <p><a href="https://linkedin.com/in/anilkumar-killi-478148266" target="_blank">linkedin.com/in/anilkumar-killi-478148266</a></p>
+            </div>
+            
         </div>
     </section>
     <footer>
-        <nav>
-            <div class="navlinkscont">
-                <ul class="navlinks">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#contacts">Contact</a></li>
-            </ul>
-            </div>
-        </nav>
-        <p>copyright &#169; 2025 Anil M@xy. All Rights Reserved.</p>
+        <p>copyright &#169; 2026 Anil Kumar Killi. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
 </body>
